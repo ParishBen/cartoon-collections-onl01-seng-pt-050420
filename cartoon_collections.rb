@@ -2,7 +2,7 @@ array=["jerry", "doc", "dopey", "bashful", "Grumpy"]
 def roll_call_dwarves(array)# code an argument here
   i=0 
   while i<array.length 
-  print "#{array[i]}"
+  print "#{i} #{array[i]}"
   i+=1 
  end
 end
