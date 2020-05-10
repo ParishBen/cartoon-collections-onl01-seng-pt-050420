@@ -38,4 +38,5 @@ if (cheese_types.indexOf(array[i])!== -1){
   i+=1 
   end
  end
+ else "NULL"
 end
