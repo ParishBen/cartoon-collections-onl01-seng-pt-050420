@@ -33,7 +33,7 @@ def find_the_cheese(array)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   i=0 
   while i<array.length 
-if (cheese_types.indexOf(array[i])!== -1)
+if (cheese_types.indexOf(array[i]))
   return("#{array[i]}")
   i+=1 
   end
