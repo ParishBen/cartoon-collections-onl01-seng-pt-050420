@@ -34,7 +34,6 @@ def find_the_cheese(array)# code an argument here
   array.each do |item| 
     if cheese_types.include? (item) 
   return("#{item}")
-  i+=1 
   end
  end
 end
