@@ -37,6 +37,6 @@ if cheese_types.include? (array[i])
   return("#{array[i]}")
   i+=1 
   end
- end
- else "NULL"
+ else puts "NULL"
+   end
 end
