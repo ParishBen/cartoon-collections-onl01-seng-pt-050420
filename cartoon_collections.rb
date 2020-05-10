@@ -28,9 +28,13 @@ else false
 end 
 end
 
-  
 def find_the_cheese(array)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  
+  i=0 
+  while i<cheese_types.length 
+  yield(cheese_types[i])
+  i+=1 
+end 
+
 end
