@@ -33,8 +33,6 @@ def find_the_cheese(array)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   array.each do |item| 
      cheese_types.detect (item) 
-  return("#{item}")
-else return nil
-  end
+    end
  end 
 end
