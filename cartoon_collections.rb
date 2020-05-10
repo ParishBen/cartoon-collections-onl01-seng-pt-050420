@@ -31,7 +31,7 @@ end
 def find_the_cheese(array)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array.each do |item| 
+  array.detect do |item| 
     if cheese_types.detect? (item) 
   return("#{item}")
 else return nil
